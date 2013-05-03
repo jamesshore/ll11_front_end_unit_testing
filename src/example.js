@@ -29,6 +29,7 @@ wwp = window.wwp || {};
 
 			var end = relativeOffset($drawingArea, event.pageX, event.pageY);
 			drawLine(start.x, start.y, end.x, end.y);
+			start = end;
 		});
 
 		$drawingArea.mouseup(function(event) {

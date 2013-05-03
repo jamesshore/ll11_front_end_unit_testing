@@ -47,6 +47,18 @@
 			]);
 		});
 
+		it("draws consecutive line segments as mouse is moved", function() {
+			mouseDown(20, 30);
+			mouseMove(30, 300);
+			mouseMove(40, 60);
+			mouseUp(30, 300);
+
+			expect(lines(paper)).to.eql([
+				[20, 30, 30, 300],
+				[30, 300, 40, 60]
+			]);
+		});
+
 		// Further details left as an exercise for the viewer :-)
 
 		function mouseDown(relativeX, relativeY, optionalElement) {
