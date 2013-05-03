@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/8_automatopia.iml" filepath="$PROJECT_DIR$/.idea/8_automatopia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/11_front_end_unit_testing.iml" filepath="$PROJECT_DIR$/.idea/11_front_end_unit_testing.iml" />
     </modules>
   </component>
 </project>
